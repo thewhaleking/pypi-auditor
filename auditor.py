@@ -135,7 +135,7 @@ class Auditor:
         else:
             return False
 
-    def run(self, verbose=True):
+    def run(self, verbose=True) -> list[dict[str, Union[str, list]]]:
         all_versions = self.get_available_versions()
         all_differences = []
         for version in all_versions:
@@ -156,6 +156,7 @@ class Auditor:
             else:
                 if verbose:
                     print(f"{version} skipped: PyPI {pip_download}; GH {gh_download}")
+        return all_differences
 
 
 if __name__ == "__main__":
