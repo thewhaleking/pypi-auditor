@@ -1,4 +1,4 @@
-### PyPI Auditor
+# PyPI Auditor
 
 An extremely simple tool that compares, line-by-line, the files of a PyPI wheel with the files
 of the GitHub release of the same package. Does this for each PyPI version of a package.
