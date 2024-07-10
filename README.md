@@ -8,13 +8,13 @@ of the GitHub release of the same package. Does this for each PyPI version of a 
 
 Pop your info into the `Auditor` class, and hit run, like so:
 ```python
-    from auditor import Auditor
+from auditor import Auditor
 
-    auditor = Auditor(
-        "bittensor",
-        "opentensor/bittensor"
-    )
-    auditor.run()
+auditor = Auditor(
+    "bittensor",
+    "opentensor/bittensor"
+)
+auditor.run()
 ```
 
 By default (`verbose=True`), the tool will spit out the differences or OK from each version, and `run`
