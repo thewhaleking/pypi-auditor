@@ -21,6 +21,10 @@ By default (`verbose=True`), the tool will spit out the differences or OK from e
 will return a list of those differences.
 
 
+https://github.com/thewhaleking/pypi-auditor/assets/37844818/cf571311-afa9-4b96-96f3-3f02fb44be03
+
+
+
 ## Contributing
 
 Open a PR.
